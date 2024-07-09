@@ -1,4 +1,11 @@
-# Evidence Template Project
+# How to use this
+
+1. You need to have X Premium to access analytics
+2. Open https://x.com/i/account_analytics
+3. Set the filter to 1Y so all the data is diplayed
+4. Open your network tab, and find the JSON that contains the data, it's called `overviewDataUserQuery.json`
+5. Double click to download the file
+6. Fork this project and replace the `response.json` file with your downloaded copy
 
 ## Using Codespaces
 
