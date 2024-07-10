@@ -35,6 +35,7 @@ select metric from twitter group by metric
     data={twitter_filtered_single_metric}
     x=timestamp
     y=value
+    yFmt=num0
     title={inputs.metric_picker.value}
   />
 
@@ -44,6 +45,7 @@ select metric from twitter group by metric
     data={twitter_filtered_single_metric}
     x=timestamp
     y=value
+    yFmt=num0
     title={inputs.metric_picker.value}
   />
 
