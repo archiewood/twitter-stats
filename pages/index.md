@@ -56,6 +56,7 @@ select metric from twitter group by metric
     data={filtered_totals.where(`metric = '${row.metric}'`)}
     value=value
     title={row.metric}
+    fmt=num0
   />
 
 {/each}
