@@ -59,6 +59,7 @@ order by freq desc
 <DataTable data={word_frequency}/>
 
 <BarChart
+    title="Word Frequency"
     data={word_frequency.where(`freq > 1 and freq <20`)}
     x=token
     y=freq
