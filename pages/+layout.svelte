@@ -5,6 +5,6 @@
 	export let data;
 </script>
 
-<EvidenceDefaultLayout {data} hideSidebar>
+<EvidenceDefaultLayout {data} >
 	<slot slot="content" />
 </EvidenceDefaultLayout>
